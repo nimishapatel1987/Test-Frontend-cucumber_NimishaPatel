@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9049770000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 120900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 452153900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "loginsteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 239917100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I accept all cookies",
+            "match": {
+              "location": "loginsteps.iAcceptAllCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214670700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept all on How we use cookies",
+            "match": {
+              "location": "loginsteps.iAcceptAllOnHowWeUseCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308514000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Online Bingo",
+            "match": {
+              "location": "loginsteps.iClickOnOnlineBingo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to go in to virgingames website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
